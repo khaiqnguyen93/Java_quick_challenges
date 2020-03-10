@@ -10,7 +10,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import assignment.code.Bird;
+import assignment.model.Bird;
 
 public class BirdTest {
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -31,13 +31,6 @@ public class BirdTest {
 		Bird bird = new Bird();
 		bird.canWalk();
 		assertThat(outContent.toString(), containsString("I am walking"));
-	}
-
-	@Test
-	public void testFly() {
-		Bird bird = new Bird();
-		bird.canFly();
-		assertThat(outContent.toString(), containsString("I am flying"));
 	}
 
 	@Test
