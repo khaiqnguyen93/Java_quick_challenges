@@ -18,33 +18,33 @@ public class BirdTest {
 
 	@Before
 	public void setUpStreams() {
-	    System.setOut(new PrintStream(outContent));
+		System.setOut(new PrintStream(outContent));
 	}
 
 	@After
 	public void restoreStreams() {
-	    System.setOut(originalOut);
+		System.setOut(originalOut);
 	}
 
 	@Test
 	public void testWalk() {
-	    Bird bird = new Bird();
-	    bird.walk();
-	    assertThat(outContent.toString(), containsString("I am walking"));
+		Bird bird = new Bird();
+		bird.canWalk();
+		assertThat(outContent.toString(), containsString("I am walking"));
 	}
 
 	@Test
 	public void testFly() {
-	    Bird bird = new Bird();
-	    bird.fly();
-	    assertThat(outContent.toString(), containsString("I am flying"));
+		Bird bird = new Bird();
+		bird.canFly();
+		assertThat(outContent.toString(), containsString("I am flying"));
 	}
 
 	@Test
 	public void testSing() {
-	    Bird bird = new Bird();
-	    bird.sing();
-	    assertThat(outContent.toString(), containsString("I am singing"));
+		Bird bird = new Bird();
+		bird.canSound();
+		assertThat(outContent.toString(), containsString("I am singing"));
 	}
 
 }
