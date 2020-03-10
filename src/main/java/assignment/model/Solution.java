@@ -14,5 +14,6 @@ public class Solution {
 
 		Rooster rooster = new Rooster();
 		rooster.canSound();
+		rooster.canWalk();
 	}
 }
