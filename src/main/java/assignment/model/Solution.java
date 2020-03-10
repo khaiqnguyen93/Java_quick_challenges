@@ -11,5 +11,8 @@ public class Solution {
 		Chicken chicken = new Chicken();
 		chicken.canSound();
 		chicken.canWalk();
+
+		Rooster rooster = new Rooster();
+		rooster.canSound();
 	}
 }
