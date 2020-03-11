@@ -1,15 +1,18 @@
+#Commit 11
+D2 - optimize your model to account for the metamorphosis from caterpillar to butterfly
+
 #Commit 10
-Add Butterfly, butterfly can only fly without making sound
+D1 - Add Butterfly, butterfly can only fly without making sound
 
 #Commit 9
-Add Dolphin, extends from SwimmingAnimal so that Dolphin can swim but don't need to inherit from fish
+B3 - Add Dolphin, extends from SwimmingAnimal so that Dolphin can swim but don't need to inherit from fish
 
 #Commit 8
-Specialize the fish as a Shark and as a Clownfish
+B2 - Specialize the fish as a Shark and as a Clownfish
 Add FishBehaviors
 
 #Commit 7
-B. Model fish as well as other swimming animals
+B1. Model fish as well as other swimming animals
 Model a Fish with SwimmingAnimal abstract class
 
 #Commit 6

@@ -51,6 +51,9 @@ public class Solution {
 		System.out.println("===D1===");
 		//Butterfly
 		Butterfly butterfly = new Butterfly();
-		butterfly.canFly();
+		butterfly.checkForm(); // Expect: Caterpillar
+		//Transform
+		butterfly.transform();
+		butterfly.checkForm(); // Expect: Butterfly
 	}
 }
