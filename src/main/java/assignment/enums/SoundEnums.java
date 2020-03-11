@@ -6,7 +6,8 @@ public enum SoundEnums {
     CHICKEN("Cluck, cluck"),
     ROOSTER("Cock-a-doodle-doo"),
     DOG("Woof, woof"),
-    CAT("Meow");
+    CAT("Meow"),
+	FROG("frog");
 
 	private String animalSound;
 

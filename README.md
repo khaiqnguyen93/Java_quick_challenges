@@ -1,3 +1,6 @@
+#Commit 12
+E1 - Add count class to count all kind of animals.
+
 #Commit 11
 D2 - optimize your model to account for the metamorphosis from caterpillar to butterfly
 
