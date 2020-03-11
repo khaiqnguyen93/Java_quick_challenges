@@ -1,3 +1,11 @@
+#Commit 8
+Specialize the fish as a Shark and as a Clownfish
+Add FishBehaviors
+
+#Commit 7
+B. Model fish as well as other swimming animals
+Model a Fish with SwimmingAnimal abstract class
+
 #Commit 6
 4 - Model parrots that live with dogs, cats, roosters.
 Refactor the animal sound to flexible used for all animals

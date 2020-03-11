@@ -32,5 +32,15 @@ public class Solution {
 		//Fish
 		Fish fish = new Fish();
 		fish.canSwim();
+		System.out.println("===");
+
+		//Shark and Clownfish
+		Shark shark = new Shark();
+		System.out.println("Sharks are " + shark.size() + " and " + shark.color());
+		shark.doSomething();
+
+		Clownfish clowfish = new Clownfish();
+		System.out.println("Clownfish are " + clowfish.size()  + " and " + clowfish.color());
+		clowfish.doSomething();
 	}
 }
