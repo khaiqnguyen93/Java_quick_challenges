@@ -27,5 +27,10 @@ public class Solution {
 		new Parrot(new SoundUtils(SoundEnums.DOG)).canSound(); // Parrot live near dog
 		new Parrot(new SoundUtils(SoundEnums.CAT)).canSound(); // Parrot live near cat
 		new Parrot(new SoundUtils(SoundEnums.ROOSTER)).canSound(); // Parrot live near rooster
+		System.out.println("===");
+
+		//Fish
+		Fish fish = new Fish();
+		fish.canSwim();
 	}
 }
