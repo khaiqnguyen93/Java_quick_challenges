@@ -42,5 +42,10 @@ public class Solution {
 		Clownfish clowfish = new Clownfish();
 		System.out.println("Clownfish are " + clowfish.size()  + " and " + clowfish.color());
 		clowfish.doSomething();
+		System.out.println("===");
+
+		//Dolphin
+		Dolphin dolphin = new Dolphin();
+		dolphin.canSwim();
 	}
 }

@@ -1,3 +1,6 @@
+#Commit 9
+Add Dolphin, extends from SwimmingAnimal so that Dolphin can swim but don't need to inherit from fish
+
 #Commit 8
 Specialize the fish as a Shark and as a Clownfish
 Add FishBehaviors
