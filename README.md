@@ -1,3 +1,9 @@
+#Commit 6
+4 - Model parrots that live with dogs, cats, roosters.
+Refactor the animal sound to flexible used for all animals
+=> Use SoundUtils class inside Animal, then this SoundUtils will use SoundEnums to trigger the appropriate sound
+In case parrot, because we inject the sound to constructor, so we just need to trigger whatever sound we want to parrot (that sound should be added to SoundEnums first)
+
 #Commit 5
 3c - Model a rooster using composition instead of inheritance.
 

@@ -2,10 +2,17 @@ package assignment.model;
 
 import assignment.behaviors.Flyable;
 import assignment.behaviors.Swimable;
+import assignment.enums.SoundEnums;
+import assignment.utils.SoundUtils;
 
 public class Duck extends Bird implements Flyable, Swimable {
 
-	public void canSound(){
-		System.out.println("Quack, quack");
+	public Duck() {
+		super(new SoundUtils(SoundEnums.DUCK));
+	}
+
+	// Constructor with param for duck have different sound
+	public Duck(SoundUtils soundUtils) {
+		super(soundUtils);
 	}
 }
