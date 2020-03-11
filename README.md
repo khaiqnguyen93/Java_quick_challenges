@@ -1,3 +1,6 @@
+#Commit 10
+Add Butterfly, butterfly can only fly without making sound
+
 #Commit 9
 Add Dolphin, extends from SwimmingAnimal so that Dolphin can swim but don't need to inherit from fish
 
